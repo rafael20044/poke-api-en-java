@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<launch4jConfig>
+  <dontWrapJar>false</dontWrapJar>
+  <headerType>gui</headerType>
+  <jar>D:\ARCHIVOS 04-ABRI-23\Documents\NetBeansProjects\PokeApi\dist\PokeApi.jar</jar>
+  <outfile>D:\ARCHIVOS 04-ABRI-23\Documents\NetBeansProjects\PokeApi\exe\PokeApi.exe</outfile>
+  <errTitle></errTitle>
+  <cmdLine></cmdLine>
+  <chdir>.</chdir>
+  <priority>normal</priority>
+  <downloadUrl></downloadUrl>
+  <supportUrl></supportUrl>
+  <stayAlive>false</stayAlive>
+  <restartOnCrash>false</restartOnCrash>
+  <manifest></manifest>
+  <icon>D:\ARCHIVOS 04-ABRI-23\Downloads\pokeapi_256.ico</icon>
+  <classPath>
+    <mainClass>pokeapi.Main</mainClass>
+    <cp>lib/json-20230618.jar</cp>
+  </classPath>
+  <jre>
+    <path>%JAVA_HOME%;%PATH%</path>
+    <requiresJdk>false</requiresJdk>
+    <requires64Bit>false</requires64Bit>
+    <minVersion></minVersion>
+    <maxVersion></maxVersion>
+  </jre>
+</launch4jConfig>
